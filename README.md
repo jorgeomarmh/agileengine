@@ -13,7 +13,7 @@ npm run serve
 
 ### Create .eslintrc.js file if you facing troubles with run serve command
 
-<!-- module.exports = {
+module.exports = {
   root: true,
   env: {
     node: true
@@ -29,7 +29,7 @@ npm run serve
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
   }
-} -->
+}
 
 
 ### Compiles and minifies for production
